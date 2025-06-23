@@ -1,69 +1,69 @@
-# 🎨 Frontend Development Assignments
+# ⚙️ Backend Development Assignments
 
-> **Welcome to Frontend Development Track!** This guide contains all frontend-focused assignments for students and interns interested in UI/UX development, React, and modern web technologies.
+> **Welcome to Backend Development Track!** This guide contains all backend-focused assignments for students and interns interested in server-side development, APIs, microservices, and system architecture.
 
 ---
 
 ## 📋 Available Assignments
 
-### 📂 Task Tracker (Intermediate - 7 days)
+### 📂 API Gateway (Advanced - 10 days)
 
-**🎯 Assignment Summary**: Build a full-stack task management application using React and Express.js with TypeScript implementation.
+**🎯 Assignment Summary**: Design and implement a microservices architecture with API gateway, service discovery, and load balancing.
 
-**🏷️ Skill Tags**: `frontend`, `react`, `typescript`, `express`, `mongodb`, `fullstack`
+**🏷️ Skill Tags**: `backend`, `microservices`, `api-gateway`, `nodejs`, `docker`, `kubernetes`
 
-**📚 Prerequisites**: 
-- Basic knowledge of JavaScript/TypeScript
-- Understanding of React hooks and state management
-- Familiarity with REST APIs
-- Git workflow experience
+**📚 Prerequisites**:
+- Strong understanding of Node.js and Express
+- Knowledge of microservices architecture
+- Docker and containerization experience
+- Understanding of authentication and authorization
 
-**📊 Difficulty Level**: 🟡 **Intermediate** (1-3 years experience)
+**📊 Difficulty Level**: 🔴 **Advanced** (3+ years experience)
 
 **🎯 Learning Objectives**:
-- React hooks and state management
-- API integration with Express.js
-- TypeScript implementation
-- Responsive UI design
-- Git workflow and deployment
+- Microservices design patterns
+- API gateway implementation
+- Service discovery and load balancing
+- Authentication and authorization
+- Container orchestration
 
-**📁 Starter Code Location**: `assignments/frontend-development/task-tracker/starter-code/`
+**📁 Starter Code Location**: `assignments/backend-development/api-gateway/starter-code/`
 
 **📋 Core Requirements (80 points)**:
-- [ ] **Backend/API (25 points)**:
-  - [ ] Add support for due dates (`dueDate: Date`)
-  - [ ] Add priority field (Low, Medium, High)
-  - [ ] Add filtering endpoint by completion status and priority
-  - [ ] Implement proper error handling and validation
-- [ ] **Frontend/UI (30 points)**:
-  - [ ] Display priority and due date in the UI
-  - [ ] Add filtering dropdown (by priority, status)
-  - [ ] Add task archiving functionality
-  - [ ] Implement responsive design for mobile/tablet
+- [ ] **API Gateway (25 points)**:
+  - [ ] Implement request routing and load balancing
+  - [ ] Add authentication middleware
+  - [ ] Implement rate limiting and throttling
+  - [ ] Add request/response transformation
+- [ ] **Microservices (30 points)**:
+  - [ ] Create at least 3 microservices
+  - [ ] Implement service discovery
+  - [ ] Add health checks and monitoring
+  - [ ] Implement circuit breaker pattern
 - [ ] **Integration (15 points)**:
-  - [ ] Proper frontend-backend communication
-  - [ ] Real-time updates using WebSocket or polling
-  - [ ] Error handling and user feedback
+  - [ ] Docker containerization
+  - [ ] Kubernetes deployment manifests
+  - [ ] Service mesh implementation
 - [ ] **Code Quality (10 points)**:
-  - [ ] Use TypeScript throughout
-  - [ ] Follow ESLint rules
-  - [ ] Write meaningful commit messages
-  - [ ] Add proper documentation
+  - [ ] Clean architecture principles
+  - [ ] Comprehensive error handling
+  - [ ] API documentation with OpenAPI/Swagger
+  - [ ] Unit and integration tests
 
 **🚀 Bonus Features (20 points)**:
-- [ ] JWT authentication (login/signup) - 10 points
-- [ ] Subtasks for each task (nested lists) - 5 points
-- [ ] Light/dark theme toggle - 5 points
+- [ ] Implement service mesh (Istio/Linkerd) - 10 points
+- [ ] Add distributed tracing - 5 points
+- [ ] Implement API versioning - 5 points
 
 **📤 Deliverables**:
-- [ ] Working application deployed online
-- [ ] GitHub repository with clean commit history
-- [ ] 3-5 minute demo video
-- [ ] Updated README with setup instructions
-- [ ] Screenshots of all features
-- [ ] Code documentation and comments
+- [ ] Deployed microservices architecture
+- [ ] Kubernetes deployment manifests
+- [ ] API documentation
+- [ ] Architecture diagram and documentation
+- [ ] Performance testing results
+- [ ] Demo video showing all features
 
-**⏱️ Estimated Time**: 7 days (40-50 hours)
+**⏱️ Estimated Time**: 10 days (60-80 hours)
 
 **👥 Reviewer Contact**: hr@logbizgroup.com
 
@@ -72,11 +72,11 @@
 ## 📤 Submission Guidelines
 
 ### 📋 Required Deliverables
-1. **Working Application**: Fully functional React application
+1. **Working Backend System**: Fully functional microservices architecture
 2. **GitHub Repository**: Clean commit history with meaningful messages
 3. **Demo Video**: 3-5 minute walkthrough of all features
-4. **Documentation**: Comprehensive README and setup instructions
-5. **Screenshots**: Visual evidence of completed features
+4. **Documentation**: Comprehensive API docs and setup instructions
+5. **Architecture Diagrams**: Visual representation of system design
 6. **Code Quality**: Well-structured, documented, and tested code
 
 ### 📤 Submission Process
@@ -90,8 +90,8 @@
 Your submission will be evaluated on:
 - **Functionality (25%)**: All requirements implemented and working
 - **Code Quality (20%)**: Clean, maintainable, well-structured code
-- **UI/UX Design (20%)**: Professional, responsive, user-friendly interface
-- **API Integration (15%)**: Proper frontend-backend communication
+- **Architecture Design (20%)**: Scalable, efficient system design
+- **API Design (15%)**: RESTful, well-documented APIs
 - **Documentation (10%)**: Clear README, comments, and setup instructions
 - **Bonus Features (10%)**: Extra features that demonstrate advanced skills
 
@@ -106,32 +106,40 @@ Your submission will be evaluated on:
 - **Urgent Issues**: Direct contact to admin team
 
 ### 📖 Learning Resources
-- **React Documentation**: https://react.dev/
-- **TypeScript Handbook**: https://www.typescriptlang.org/docs/
+- **Node.js Documentation**: https://nodejs.org/docs/
 - **Express.js Guide**: https://expressjs.com/
-- **Frontend Best Practices**: https://developer.mozilla.org/en-US/docs/Learn
+- **Docker Documentation**: https://docs.docker.com/
+- **Kubernetes Guide**: https://kubernetes.io/docs/
+- **Microservices Patterns**: https://microservices.io/
 
 ---
 
 ## 🎉 Success Tips
 
-### 💡 Frontend-Specific Best Practices
-1. **Component Design**: Create reusable, well-structured components
-2. **State Management**: Use appropriate state management patterns
-3. **Responsive Design**: Ensure your app works on all screen sizes
-4. **Performance**: Optimize for fast loading and smooth interactions
-5. **Accessibility**: Follow WCAG guidelines for inclusive design
+### 💡 Backend-Specific Best Practices
+1. **API Design**: Follow RESTful principles and OpenAPI standards
+2. **Error Handling**: Implement comprehensive error handling and logging
+3. **Security**: Apply authentication, authorization, and input validation
+4. **Performance**: Optimize database queries and implement caching
+5. **Testing**: Write unit, integration, and end-to-end tests
 
 ### ⚡ Pro Tips
-- **Start with Wireframes**: Plan your UI before coding
-- **Use CSS-in-JS or Styled Components**: For better component styling
-- **Implement Error Boundaries**: Handle React errors gracefully
-- **Add Loading States**: Provide feedback during async operations
-- **Test on Multiple Browsers**: Ensure cross-browser compatibility
+- **Start with API Design**: Plan your endpoints before implementation
+- **Use Environment Variables**: Keep configuration separate from code
+- **Implement Logging**: Add structured logging for debugging
+- **Add Health Checks**: Monitor service health and dependencies
+- **Document Everything**: Create comprehensive API documentation
+
+### 🚀 Common Pitfalls to Avoid
+- **Poor Error Handling**: Generic error messages without context
+- **Security Vulnerabilities**: Missing input validation and authentication
+- **Performance Issues**: N+1 queries and inefficient algorithms
+- **Poor Documentation**: Incomplete or unclear API documentation
+- **No Testing**: Missing unit tests and integration tests
 
 ---
 
-*Good luck with your frontend development assignment! We're excited to see your UI/UX skills in action! 🚀*
+*Good luck with your backend development assignment! We're excited to see your system architecture skills in action! 🚀*
 
 ---
 
