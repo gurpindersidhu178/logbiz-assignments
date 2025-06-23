@@ -1,69 +1,69 @@
-# 📊 Data Science Assignments
+# 🛠️ DevOps Assignments
 
-> **Welcome to Data Science Track!** This guide contains all data science-focused assignments for students and interns interested in machine learning, data analysis, and predictive modeling.
+> **Welcome to DevOps Track!** This guide contains all DevOps-focused assignments for students and interns interested in automation, deployment, infrastructure, and continuous integration/continuous deployment.
 
 ---
 
 ## 📋 Available Assignments
 
-### 📂 ML Pipeline (Intermediate - 8 days)
+### 📂 CI/CD Pipeline (Advanced - 12 days)
 
-**🎯 Assignment Summary**: Build an end-to-end machine learning workflow with data preprocessing, model training, and deployment.
+**🎯 Assignment Summary**: Design and implement automated deployment and continuous integration pipeline with testing, security scanning, and infrastructure as code.
 
-**🏷️ Skill Tags**: `data-science`, `machine-learning`, `python`, `pandas`, `scikit-learn`, `mlflow`
+**🏷️ Skill Tags**: `devops`, `ci-cd`, `github-actions`, `docker`, `kubernetes`, `terraform`
 
 **📚 Prerequisites**:
-- Python programming experience
-- Basic understanding of machine learning concepts
-- Familiarity with data manipulation libraries
-- Knowledge of model evaluation metrics
+- Experience with Git and GitHub
+- Understanding of containerization
+- Knowledge of cloud platforms
+- Familiarity with infrastructure automation
 
-**📊 Difficulty Level**: 🟡 **Intermediate** (1-3 years experience)
+**📊 Difficulty Level**: 🔴 **Advanced** (3+ years experience)
 
 **🎯 Learning Objectives**:
-- Data preprocessing and cleaning
-- Feature engineering
-- Model training and evaluation
-- Pipeline automation
-- Model deployment and monitoring
+- CI/CD pipeline design
+- Automated testing strategies
+- Deployment strategies
+- Infrastructure as code
+- Security and compliance
 
-**📁 Starter Code Location**: `assignments/data-science/ml-pipeline/starter-code/`
+**📁 Starter Code Location**: `assignments/devops/ci-cd-pipeline/starter-code/`
 
 **📋 Core Requirements (80 points)**:
-- [ ] **Data Processing (25 points)**:
-  - [ ] Implement data cleaning and preprocessing
-  - [ ] Feature engineering and selection
-  - [ ] Data validation and quality checks
-  - [ ] Handle missing values and outliers
-- [ ] **Model Development (30 points)**:
-  - [ ] Train multiple ML models
-  - [ ] Implement cross-validation
-  - [ ] Model evaluation and comparison
-  - [ ] Hyperparameter tuning
-- [ ] **Pipeline Automation (15 points)**:
-  - [ ] Automated training pipeline
-  - [ ] Model versioning and tracking
-  - [ ] Experiment logging
+- [ ] **CI Pipeline (25 points)**:
+  - [ ] Automated testing (unit, integration, e2e)
+  - [ ] Code quality checks (linting, formatting)
+  - [ ] Security vulnerability scanning
+  - [ ] Build artifact generation
+- [ ] **CD Pipeline (30 points)**:
+  - [ ] Automated deployment to staging/production
+  - [ ] Blue-green or canary deployment
+  - [ ] Rollback mechanisms
+  - [ ] Environment-specific configurations
+- [ ] **Infrastructure (15 points)**:
+  - [ ] Infrastructure as code (Terraform/CloudFormation)
+  - [ ] Container orchestration setup
+  - [ ] Monitoring and logging
 - [ ] **Code Quality (10 points)**:
-  - [ ] Clean, modular code structure
-  - [ ] Comprehensive documentation
-  - [ ] Unit tests for key functions
-  - [ ] Error handling and logging
+  - [ ] Pipeline documentation
+  - [ ] Security best practices
+  - [ ] Error handling and notifications
+  - [ ] Performance optimization
 
 **🚀 Bonus Features (20 points)**:
-- [ ] Model deployment with FastAPI - 10 points
-- [ ] Real-time prediction API - 5 points
-- [ ] Model performance monitoring - 5 points
+- [ ] Multi-cloud deployment support - 10 points
+- [ ] Advanced monitoring and alerting - 5 points
+- [ ] Disaster recovery automation - 5 points
 
 **📤 Deliverables**:
-- [ ] Complete ML pipeline code
-- [ ] Model performance report
-- [ ] Deployed prediction API
-- [ ] Jupyter notebooks with analysis
-- [ ] Documentation and setup guide
+- [ ] Working CI/CD pipeline
+- [ ] Infrastructure as code templates
+- [ ] Deployment documentation
+- [ ] Security and compliance report
+- [ ] Performance metrics and monitoring
 - [ ] Demo video showing pipeline execution
 
-**⏱️ Estimated Time**: 8 days (50-60 hours)
+**⏱️ Estimated Time**: 12 days (80-100 hours)
 
 **👥 Reviewer Contact**: hr@logbizgroup.com
 
@@ -72,11 +72,11 @@
 ## 📤 Submission Guidelines
 
 ### 📋 Required Deliverables
-1. **Working ML Pipeline**: Fully functional end-to-end workflow
+1. **Working CI/CD Pipeline**: Fully functional automated deployment system
 2. **GitHub Repository**: Clean commit history with meaningful messages
 3. **Demo Video**: 3-5 minute walkthrough of all features
-4. **Documentation**: Comprehensive analysis and setup instructions
-5. **Performance Reports**: Model evaluation and comparison results
+4. **Documentation**: Comprehensive pipeline and infrastructure docs
+5. **Infrastructure Code**: Terraform/CloudFormation templates
 6. **Code Quality**: Well-structured, documented, and tested code
 
 ### 📤 Submission Process
@@ -90,8 +90,8 @@
 Your submission will be evaluated on:
 - **Functionality (25%)**: All requirements implemented and working
 - **Code Quality (20%)**: Clean, maintainable, well-structured code
-- **Model Performance (20%)**: Effective model selection and optimization
-- **Data Processing (15%)**: Proper data cleaning and feature engineering
+- **Pipeline Design (20%)**: Efficient and reliable automation
+- **Infrastructure (15%)**: Scalable and secure infrastructure
 - **Documentation (10%)**: Clear README, comments, and setup instructions
 - **Bonus Features (10%)**: Extra features that demonstrate advanced skills
 
@@ -106,61 +106,68 @@ Your submission will be evaluated on:
 - **Urgent Issues**: Direct contact to admin team
 
 ### 📖 Learning Resources
-- **Python Documentation**: https://docs.python.org/
-- **Pandas Guide**: https://pandas.pydata.org/docs/
-- **Scikit-learn Tutorials**: https://scikit-learn.org/stable/tutorial/
-- **MLflow Documentation**: https://mlflow.org/docs/
-- **Data Science Best Practices**: https://www.kaggle.com/learn
+- **GitHub Actions**: https://docs.github.com/en/actions
+- **Docker Documentation**: https://docs.docker.com/
+- **Kubernetes Guide**: https://kubernetes.io/docs/
+- **Terraform Documentation**: https://www.terraform.io/docs/
+- **DevOps Best Practices**: https://www.atlassian.com/devops
 
 ---
 
 ## 🎉 Success Tips
 
-### 💡 Data Science-Specific Best Practices
-1. **Data Quality**: Always validate and clean your data first
-2. **Feature Engineering**: Create meaningful features from raw data
-3. **Model Selection**: Try multiple algorithms and compare performance
-4. **Validation**: Use proper cross-validation techniques
-5. **Interpretability**: Ensure your models are explainable
+### 💡 DevOps-Specific Best Practices
+1. **Automation First**: Automate everything that can be automated
+2. **Security by Design**: Implement security at every layer
+3. **Monitoring**: Set up comprehensive monitoring and alerting
+4. **Documentation**: Document all processes and configurations
+5. **Testing**: Test your infrastructure and deployment processes
 
 ### ⚡ Pro Tips
-- **Start with EDA**: Explore your data thoroughly before modeling
-- **Use Version Control**: Track your experiments and model versions
-- **Document Assumptions**: Clearly state your data and model assumptions
-- **Monitor Performance**: Track model performance over time
-- **Consider Business Impact**: Focus on metrics that matter
+- **Start Small**: Begin with basic CI/CD and expand gradually
+- **Use Infrastructure as Code**: Version control your infrastructure
+- **Implement Security Scanning**: Scan for vulnerabilities early
+- **Monitor Performance**: Track pipeline and application performance
+- **Plan for Failure**: Design with failure scenarios in mind
 
 ### 🚀 Common Pitfalls to Avoid
-- **Data Leakage**: Avoid using future information in training
-- **Overfitting**: Don't memorize training data
-- **Poor Feature Engineering**: Don't ignore domain knowledge
-- **Inadequate Validation**: Use proper train/test splits
-- **No Documentation**: Document your data sources and preprocessing
+- **Manual Deployments**: Avoid manual steps in production
+- **Poor Security**: Don't ignore security best practices
+- **No Monitoring**: Deploy without proper monitoring
+- **Complex Pipelines**: Over-engineer simple processes
+- **No Rollback Plan**: Deploy without rollback strategy
 
 ---
 
-## 📊 Data Science Workflow
+## 🔄 DevOps Workflow
 
-### 🔄 Typical Process:
-1. **Data Collection**: Gather relevant datasets
-2. **Exploratory Data Analysis**: Understand data patterns
-3. **Data Preprocessing**: Clean and prepare data
-4. **Feature Engineering**: Create meaningful features
-5. **Model Training**: Train multiple algorithms
-6. **Model Evaluation**: Compare performance metrics
-7. **Model Deployment**: Deploy best performing model
-8. **Monitoring**: Track model performance
+### 📋 Typical CI/CD Process:
+1. **Code Commit**: Developer pushes code to repository
+2. **Automated Testing**: Unit, integration, and security tests
+3. **Code Quality Checks**: Linting, formatting, and coverage
+4. **Build Process**: Create deployable artifacts
+5. **Deploy to Staging**: Test in staging environment
+6. **Manual Approval**: Review and approve for production
+7. **Deploy to Production**: Automated production deployment
+8. **Monitoring**: Track application and infrastructure health
 
-### 📈 Key Metrics to Track:
-- **Accuracy**: Overall prediction accuracy
-- **Precision/Recall**: For classification problems
-- **RMSE/MAE**: For regression problems
-- **Cross-validation Score**: Robust performance estimate
-- **Feature Importance**: Model interpretability
+### 🛡️ Security Considerations:
+- **Secret Management**: Use secure secret storage
+- **Access Control**: Implement least privilege access
+- **Vulnerability Scanning**: Regular security scans
+- **Compliance**: Follow industry standards and regulations
+- **Audit Logging**: Track all changes and access
+
+### 📊 Key Metrics to Track:
+- **Deployment Frequency**: How often you deploy
+- **Lead Time**: Time from commit to production
+- **Mean Time to Recovery**: Time to fix failures
+- **Change Failure Rate**: Percentage of failed deployments
+- **Pipeline Success Rate**: Overall pipeline reliability
 
 ---
 
-*Good luck with your data science assignment! We're excited to see your analytical skills in action! 🚀*
+*Good luck with your DevOps assignment! We're excited to see your automation skills in action! 🚀*
 
 ---
 
