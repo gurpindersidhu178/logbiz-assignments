@@ -1,69 +1,69 @@
-# ⚙️ Backend Development Assignments
+# 🛠️ DevOps Assignments
 
-> **Welcome to Backend Development Track!** This guide contains all backend-focused assignments for students and interns interested in server-side development, APIs, microservices, and system architecture.
+> **Welcome to DevOps Track!** This guide contains all DevOps-focused assignments for students and interns interested in automation, deployment, infrastructure, and continuous integration/continuous deployment.
 
 ---
 
 ## 📋 Available Assignments
 
-### 📂 API Gateway (Advanced - 10 days)
+### 📂 CI/CD Pipeline (Advanced - 12 days)
 
-**🎯 Assignment Summary**: Design and implement a microservices architecture with API gateway, service discovery, and load balancing.
+**🎯 Assignment Summary**: Design and implement automated deployment and continuous integration pipeline with testing, security scanning, and infrastructure as code.
 
-**🏷️ Skill Tags**: `backend`, `microservices`, `api-gateway`, `nodejs`, `docker`, `kubernetes`
+**🏷️ Skill Tags**: `devops`, `ci-cd`, `github-actions`, `docker`, `kubernetes`, `terraform`
 
 **📚 Prerequisites**:
-- Strong understanding of Node.js and Express
-- Knowledge of microservices architecture
-- Docker and containerization experience
-- Understanding of authentication and authorization
+- Experience with Git and GitHub
+- Understanding of containerization
+- Knowledge of cloud platforms
+- Familiarity with infrastructure automation
 
 **📊 Difficulty Level**: 🔴 **Advanced** (3+ years experience)
 
 **🎯 Learning Objectives**:
-- Microservices design patterns
-- API gateway implementation
-- Service discovery and load balancing
-- Authentication and authorization
-- Container orchestration
+- CI/CD pipeline design
+- Automated testing strategies
+- Deployment strategies
+- Infrastructure as code
+- Security and compliance
 
-**📁 Starter Code Location**: `assignments/backend-development/api-gateway/starter-code/`
+**📁 Starter Code Location**: `assignments/devops/ci-cd-pipeline/starter-code/`
 
 **📋 Core Requirements (80 points)**:
-- [ ] **API Gateway (25 points)**:
-  - [ ] Implement request routing and load balancing
-  - [ ] Add authentication middleware
-  - [ ] Implement rate limiting and throttling
-  - [ ] Add request/response transformation
-- [ ] **Microservices (30 points)**:
-  - [ ] Create at least 3 microservices
-  - [ ] Implement service discovery
-  - [ ] Add health checks and monitoring
-  - [ ] Implement circuit breaker pattern
-- [ ] **Integration (15 points)**:
-  - [ ] Docker containerization
-  - [ ] Kubernetes deployment manifests
-  - [ ] Service mesh implementation
+- [ ] **CI Pipeline (25 points)**:
+  - [ ] Automated testing (unit, integration, e2e)
+  - [ ] Code quality checks (linting, formatting)
+  - [ ] Security vulnerability scanning
+  - [ ] Build artifact generation
+- [ ] **CD Pipeline (30 points)**:
+  - [ ] Automated deployment to staging/production
+  - [ ] Blue-green or canary deployment
+  - [ ] Rollback mechanisms
+  - [ ] Environment-specific configurations
+- [ ] **Infrastructure (15 points)**:
+  - [ ] Infrastructure as code (Terraform/CloudFormation)
+  - [ ] Container orchestration setup
+  - [ ] Monitoring and logging
 - [ ] **Code Quality (10 points)**:
-  - [ ] Clean architecture principles
-  - [ ] Comprehensive error handling
-  - [ ] API documentation with OpenAPI/Swagger
-  - [ ] Unit and integration tests
+  - [ ] Pipeline documentation
+  - [ ] Security best practices
+  - [ ] Error handling and notifications
+  - [ ] Performance optimization
 
 **🚀 Bonus Features (20 points)**:
-- [ ] Implement service mesh (Istio/Linkerd) - 10 points
-- [ ] Add distributed tracing - 5 points
-- [ ] Implement API versioning - 5 points
+- [ ] Multi-cloud deployment support - 10 points
+- [ ] Advanced monitoring and alerting - 5 points
+- [ ] Disaster recovery automation - 5 points
 
 **📤 Deliverables**:
-- [ ] Deployed microservices architecture
-- [ ] Kubernetes deployment manifests
-- [ ] API documentation
-- [ ] Architecture diagram and documentation
-- [ ] Performance testing results
-- [ ] Demo video showing all features
+- [ ] Working CI/CD pipeline
+- [ ] Infrastructure as code templates
+- [ ] Deployment documentation
+- [ ] Security and compliance report
+- [ ] Performance metrics and monitoring
+- [ ] Demo video showing pipeline execution
 
-**⏱️ Estimated Time**: 10 days (60-80 hours)
+**⏱️ Estimated Time**: 12 days (80-100 hours)
 
 **👥 Reviewer Contact**: hr@logbizgroup.com
 
@@ -72,11 +72,11 @@
 ## 📤 Submission Guidelines
 
 ### 📋 Required Deliverables
-1. **Working Backend System**: Fully functional microservices architecture
+1. **Working CI/CD Pipeline**: Fully functional automated deployment system
 2. **GitHub Repository**: Clean commit history with meaningful messages
 3. **Demo Video**: 3-5 minute walkthrough of all features
-4. **Documentation**: Comprehensive API docs and setup instructions
-5. **Architecture Diagrams**: Visual representation of system design
+4. **Documentation**: Comprehensive pipeline and infrastructure docs
+5. **Infrastructure Code**: Terraform/CloudFormation templates
 6. **Code Quality**: Well-structured, documented, and tested code
 
 ### 📤 Submission Process
@@ -90,8 +90,8 @@
 Your submission will be evaluated on:
 - **Functionality (25%)**: All requirements implemented and working
 - **Code Quality (20%)**: Clean, maintainable, well-structured code
-- **Architecture Design (20%)**: Scalable, efficient system design
-- **API Design (15%)**: RESTful, well-documented APIs
+- **Pipeline Design (20%)**: Efficient and reliable automation
+- **Infrastructure (15%)**: Scalable and secure infrastructure
 - **Documentation (10%)**: Clear README, comments, and setup instructions
 - **Bonus Features (10%)**: Extra features that demonstrate advanced skills
 
@@ -106,40 +106,68 @@ Your submission will be evaluated on:
 - **Urgent Issues**: Direct contact to admin team
 
 ### 📖 Learning Resources
-- **Node.js Documentation**: https://nodejs.org/docs/
-- **Express.js Guide**: https://expressjs.com/
+- **GitHub Actions**: https://docs.github.com/en/actions
 - **Docker Documentation**: https://docs.docker.com/
 - **Kubernetes Guide**: https://kubernetes.io/docs/
-- **Microservices Patterns**: https://microservices.io/
+- **Terraform Documentation**: https://www.terraform.io/docs/
+- **DevOps Best Practices**: https://www.atlassian.com/devops
 
 ---
 
 ## 🎉 Success Tips
 
-### 💡 Backend-Specific Best Practices
-1. **API Design**: Follow RESTful principles and OpenAPI standards
-2. **Error Handling**: Implement comprehensive error handling and logging
-3. **Security**: Apply authentication, authorization, and input validation
-4. **Performance**: Optimize database queries and implement caching
-5. **Testing**: Write unit, integration, and end-to-end tests
+### 💡 DevOps-Specific Best Practices
+1. **Automation First**: Automate everything that can be automated
+2. **Security by Design**: Implement security at every layer
+3. **Monitoring**: Set up comprehensive monitoring and alerting
+4. **Documentation**: Document all processes and configurations
+5. **Testing**: Test your infrastructure and deployment processes
 
 ### ⚡ Pro Tips
-- **Start with API Design**: Plan your endpoints before implementation
-- **Use Environment Variables**: Keep configuration separate from code
-- **Implement Logging**: Add structured logging for debugging
-- **Add Health Checks**: Monitor service health and dependencies
-- **Document Everything**: Create comprehensive API documentation
+- **Start Small**: Begin with basic CI/CD and expand gradually
+- **Use Infrastructure as Code**: Version control your infrastructure
+- **Implement Security Scanning**: Scan for vulnerabilities early
+- **Monitor Performance**: Track pipeline and application performance
+- **Plan for Failure**: Design with failure scenarios in mind
 
 ### 🚀 Common Pitfalls to Avoid
-- **Poor Error Handling**: Generic error messages without context
-- **Security Vulnerabilities**: Missing input validation and authentication
-- **Performance Issues**: N+1 queries and inefficient algorithms
-- **Poor Documentation**: Incomplete or unclear API documentation
-- **No Testing**: Missing unit tests and integration tests
+- **Manual Deployments**: Avoid manual steps in production
+- **Poor Security**: Don't ignore security best practices
+- **No Monitoring**: Deploy without proper monitoring
+- **Complex Pipelines**: Over-engineer simple processes
+- **No Rollback Plan**: Deploy without rollback strategy
 
 ---
 
-*Good luck with your backend development assignment! We're excited to see your system architecture skills in action! 🚀*
+## 🔄 DevOps Workflow
+
+### 📋 Typical CI/CD Process:
+1. **Code Commit**: Developer pushes code to repository
+2. **Automated Testing**: Unit, integration, and security tests
+3. **Code Quality Checks**: Linting, formatting, and coverage
+4. **Build Process**: Create deployable artifacts
+5. **Deploy to Staging**: Test in staging environment
+6. **Manual Approval**: Review and approve for production
+7. **Deploy to Production**: Automated production deployment
+8. **Monitoring**: Track application and infrastructure health
+
+### 🛡️ Security Considerations:
+- **Secret Management**: Use secure secret storage
+- **Access Control**: Implement least privilege access
+- **Vulnerability Scanning**: Regular security scans
+- **Compliance**: Follow industry standards and regulations
+- **Audit Logging**: Track all changes and access
+
+### 📊 Key Metrics to Track:
+- **Deployment Frequency**: How often you deploy
+- **Lead Time**: Time from commit to production
+- **Mean Time to Recovery**: Time to fix failures
+- **Change Failure Rate**: Percentage of failed deployments
+- **Pipeline Success Rate**: Overall pipeline reliability
+
+---
+
+*Good luck with your DevOps assignment! We're excited to see your automation skills in action! 🚀*
 
 ---
 
