@@ -1,0 +1,386 @@
+.tasklist-empty-svg {
+  height: 3rem;
+  width: 3rem;
+  margin: 0 auto;
+}
+
+.tasklist-empty-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.tasklist-empty-text {
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+
+.tasklist-empty-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.tasklist-empty-button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Header styles */
+.tasklist-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.tasklist-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.tasklist-subtitle {
+  color: #64748b;
+  font-size: 1rem;
+  margin-top: 0.25rem;
+}
+
+/* Stats grid */
+.tasklist-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.tasklist-stat-card {
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  padding: 1rem;
+  text-align: center;
+}
+
+.tasklist-stat-value {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.tasklist-stat-label {
+  color: #64748b;
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+
+/* Section title */
+.tasklist-section-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-left: 0.5rem;
+}
+
+/* Search input */
+.tasklist-search-input-container {
+  position: relative;
+  width: 100%;
+}
+
+.tasklist-search-icon {
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #64748b;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.tasklist-search-input {
+  width: 100%;
+  padding: 0.5rem 0.75rem 0.5rem 2.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: #1e293b;
+  background: #f8fafc;
+}
+
+.tasklist-search-input:focus {
+  outline: none;
+  border-color: #2563eb;
+  background: #fff;
+}
+
+/* Search and Filter alignment */
+.tasklist-search-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+/* Filter button */
+.tasklist-filter-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+  margin-left: auto;
+}
+
+.tasklist-filter-button:hover {
+  background: #1d4ed8;
+}
+
+.tasklist-filter-button:active {
+  transform: scale(0.95) rotate(-2deg);
+}
+
+/* Filters section */
+.tasklist-filters-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.tasklist-filter-label {
+  font-size: 1rem;
+  color: #334155;
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
+
+.tasklist-filter-select {
+  padding: 0.4rem 1.5rem 0.4rem 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: #1e293b;
+  background: #f8fafc;
+  appearance: none;
+  min-width: 120px;
+  transition: border 0.2s, background 0.2s;
+}
+
+.tasklist-filter-select:focus {
+  outline: none;
+  border-color: #2563eb;
+  background: #fff;
+}
+
+.tasklist-filter-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.tasklist-filter-dropdown::after {
+  content: "\25BC";
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #64748b;
+  pointer-events: none;
+  font-size: 0.8rem;
+}
+
+.tasklist-filter-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* Filters section as row */
+.tasklist-filter-options {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 1rem 0 0 0;
+  opacity: 1;
+  max-height: 200px;
+  transition: opacity 0.3s, max-height 0.3s;
+}
+
+.tasklist-filter-options.hide {
+  opacity: 0;
+  max-height: 0;
+  pointer-events: none;
+}
+
+.tasklist-filter-grid {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+/* Modal overlay styles */
+.tasklist-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.tasklist-modal-content {
+  background-color: white;
+  border-radius: 0.5rem;
+  width: 90%;
+  max-width: 32rem;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+@media (min-width: 640px) {
+  .tasklist-modal-content {
+    width: 100%;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .tasklist-stat-value {
+    font-size: 1.25rem;
+  }
+
+  .tasklist-stat-label {
+    font-size: 0.75rem;
+  }
+
+  .tasklist-filter-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tasklist-section-title {
+    font-size: 1rem;
+  }
+
+  .tasklist-filter-options,
+  .tasklist-filter-grid {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+/* Animation for task cards */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tasklist-cards > * {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+/* Transition for filter dropdown */
+.tasklist-filter-options {
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+/* Accessibility focus styles */
+.tasklist-search-input:focus-visible,
+.tasklist-filter-select:focus-visible,
+.tasklist-new-task-button:focus-visible,
+.tasklist-filter-button:focus-visible,
+.tasklist-empty-button:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+/* Dark mode support (optional) */
+@media (prefers-color-scheme: dark) {
+  .tasklist-title,
+  .tasklist-section-title,
+  .tasklist-empty-title,
+  .tasklist-stat-value,
+  .tasklist-filter-label {
+    color: #f3f4f6;
+  }
+
+  .tasklist-subtitle,
+  .tasklist-stat-label,
+  .tasklist-empty-text {
+    color: #9ca3af;
+  }
+
+  .tasklist-stat-card,
+  .tasklist-search-container,
+  .tasklist-modal-content {
+    background-color: #1f2937;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .tasklist-search-input,
+  .tasklist-filter-select,
+  .tasklist-filter-button {
+    background-color: #374151;
+    border-color: #4b5563;
+    color: #f3f4f6;
+  }
+
+  .tasklist-search-input::placeholder {
+    color: #9ca3af;
+  }
+
+  .tasklist-filter-button:hover {
+    background-color: #4b5563;
+  }
+}
+
+.tasklist-new-task-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #10b981;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.tasklist-new-task-button .tasklist-button-icon {
+  margin-right: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.tasklist-new-task-button:hover {
+  background-color: #059669;
+}
