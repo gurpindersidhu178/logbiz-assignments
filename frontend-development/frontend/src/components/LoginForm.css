@@ -1,0 +1,196 @@
+/* LoginForm.css */
+
+/* Base container styles */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+  padding: 1rem;
+}
+
+/* Card styling */
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  background: none;
+  border-radius: 0.3rem;
+  box-shadow: none;
+  padding: 1.5rem;
+}
+
+/* Header styles */
+.login-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.login-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #212529;
+  margin-bottom: 0.75rem;
+}
+
+.login-subtitle {
+  color: #6c757d;
+  margin-bottom: 0;
+}
+
+/* Form element styles */
+.login-form {
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #495057;
+  font-weight: 500;
+}
+
+.input-group {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+}
+
+.input-group-text {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-right: none;
+  border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.input-group-text svg {
+  height: 1.25rem;
+  width: 1.25rem;
+  color: #6c757d;
+}
+
+.form-control {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 0 0.25rem 0.25rem 0;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Password toggle button */
+.password-toggle-btn {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-left: none;
+  border-radius: 0 0.25rem 0.25rem 0;
+  padding: 0 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.password-toggle-btn:hover {
+  background-color: #e9ecef;
+}
+
+.password-toggle-btn svg {
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+/* Submit button styles */
+.submit-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #0d6efd;
+  border: none;
+  border-radius: 0.25rem;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.submit-btn:hover {
+  background-color: #0b5ed7;
+}
+
+.submit-btn:disabled {
+  background-color: #86b7fe;
+  cursor: not-allowed;
+  opacity: 0.65;
+}
+
+/* Spinner styles */
+.spinner {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  vertical-align: -0.125em;
+  border: 0.15em solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: spinner-border 0.75s linear infinite;
+  margin-right: 0.5rem;
+}
+
+@keyframes spinner-border {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Footer link styles */
+.login-footer {
+  text-align: center;
+}
+
+.login-footer-text {
+  color: #6c757d;
+  margin-bottom: 0;
+}
+
+.register-link {
+  color: #0d6efd;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .login-card {
+    padding: 1.25rem;
+  }
+
+  .login-title {
+    font-size: 1.3rem;
+  }
+
+  .submit-btn {
+    padding: 0.65rem;
+    font-size: 1rem;
+  }
+}
